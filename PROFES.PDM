@@ -1,0 +1,165 @@
+[Root]
+Most Recent Package=Paquete de instalación estándar 2
+
+
+[Package|Paquete de instalación estándar 2|PROFES]
+Icon1=PROFES.HLP
+Title1=Ayuda de Profes
+StartIn1=$(AppPath)
+Key1=Icon2
+Icon2=PROFES.exe
+Title2=Profes-edulogros
+StartIn2=$(AppPath)
+Key2=Icon1
+
+[Package|Paquete de instalación estándar 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\camila\Documents\Edulogros\Profes_Santo\Instalador
+
+[Package|Paquete de instalación estándar 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Paquete de instalación estándar 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Paquete de instalación estándar 2|Files Found]
+
+[Package|Paquete de instalación estándar 2|Files Released]
+PROFES.HLP=
+
+[Package|Paquete de instalación estándar 2|Missing Dependency Information]
+
+[Package|Paquete de instalación estándar 2|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=
+C:\WINDOWS\system32\comctl32.ocx=
+C:\WINDOWS\system32\MSFLXGRD.OCX=
+D:\WINDOWS\system32\comctl32.ocx=
+D:\WINDOWS\system32\MSFLXGRD.OCX=
+
+[Package|Paquete de instalación estándar 2|Files Added]
+
+[Package|Paquete de instalación estándar 2|Files Removed]
+
+[Package|Paquete de instalación estándar 2|Files In Project]
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\VB6ES.DLL=Yes
+C:\Windows\System32\MSFLXGRD.OCX=Yes
+C:\Windows\System32\FLXGDES.DLL=Yes
+C:\Windows\System32\COMCTL32.OCX=Yes
+C:\Windows\System32\CMCTLES.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Users\camila\Documents\Edulogros\Profes_Santo\Profes.exe=Yes
+
+[Package|Paquete de instalación estándar 2|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete de instalación estándar 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete de instalación estándar 2|Install Locations]
+D:\PROFES.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\VISUAL STUDIO\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\FLXGDES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMCTLES.DLL=$(WinSysPath)
+D:\VISUAL STUDIO\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\VISUAL STUDIO\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\VISUAL STUDIO\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\AYUDA\PROFES.HLP=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Edulogros\PROFES.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\FLXGDES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\comctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\CMCTLES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Edulogros\AYUDA\PROFES.HLP=$(AppPath)
+Z:\Programas_fuente\Profes\Profes.exe=$(AppPath)
+C:\Programas_fuente\Profes_Red\Profes.exe=$(AppPath)
+D:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\VB6ES.DLL=$(WinSysPath)
+D:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+D:\WINDOWS\system32\FLXGDES.DLL=$(WinSysPath)
+D:\WINDOWS\system32\comctl32.ocx=$(WinSysPath)
+D:\WINDOWS\system32\CMCTLES.DLL=$(WinSysPath)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Programas_fuente\Profes_Red_Oct2007\Profes.exe=$(AppPath)
+C:\Users\camila\Documents\Edulogros\Profes_Red\Profes.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Users\camila\Documents\Edulogros\Profes_Santo\Profes.exe=$(AppPath)
+
+[Package|Paquete de instalación estándar 2|Configure Shared Files]
+Applicable=Yes
+D:\PROFES.exe=No
+D:\AYUDA\PROFES.HLP=No
+D:\Edulogros\PROFES.exe=No
+D:\Edulogros\AYUDA\PROFES.HLP=No
+Z:\Programas_fuente\Profes\Profes.exe=No
+C:\Programas_fuente\Profes_Red\Profes.exe=No
+C:\Programas_fuente\Profes_Red_Oct2007\Profes.exe=No
+C:\Users\camila\Documents\Edulogros\Profes_Red\Profes.exe=No
+C:\Users\camila\Documents\Edulogros\Profes_Santo\Profes.exe=No
+
+[Package|Paquete de instalación estándar 2|Distribution]
+Type=single
+Size=1.44 MB
+Title=PROFES-EDULOGROS V.12.1
+
+[Package|Paquete de instalación estándar 2|Package]
+PackageFolder=C:\Users\camila\Documents\Edulogros\Profes_Santo\Instalador
+ProjectFolder=C:\Users\camila\Documents\Edulogros\Profes_Santo
+ServerSideCab=
+File1=C:\Users\camila\Documents\Edulogros\Profes_Santo\Instalador\setup.exe
+File2=C:\Users\camila\Documents\Edulogros\Profes_Santo\Instalador\Setup.Lst
+File3=C:\Users\camila\Documents\Edulogros\Profes_Santo\Instalador\Profes.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Paquete de instalación estándar 2|IconGroups]
+Group0=Profes-edulogros
+PrivateGroup0=Falso
+Parent0=$(Programs)
+
+[Package|Paquete de instalación estándar 2|Profes-edulogros]
+Icon1=PROFES.exe
+Title1=Profes
+StartIn1=$(AppPath)
+Key1=Icon1
